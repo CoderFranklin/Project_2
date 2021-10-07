@@ -6,7 +6,7 @@ let init = () => {
     circles = document.getElementsByClassName("jumbo-slider__circle"),//Find all the circles
     links = document.getElementsByClassName("jumbo-slider__link"),//Find all the links
     current = 1,
-    time = 10000;//10 seconds
+    time = 6000;//6 seconds
   //console.log(`current: ${current}`); //debug current: 1
 
   //add animation class to slide
@@ -28,7 +28,7 @@ let init = () => {
   let startSliding = () => {
     //let test = 1
     setInterval(() => {
-      //runs every 10 seconds
+      //runs every 6 seconds
       //test++;
       //console.log(test)
       //console.log(`update current: ${current}`);
